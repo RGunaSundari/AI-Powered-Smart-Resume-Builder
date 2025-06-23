@@ -16,7 +16,7 @@ const EducationalPreview = ({ resumeInfo }) => {
         }}
       />
 
-      {/* ✅ FIXED: Changed from resumeInfo.education to resumeInfo.educationDetail */}
+      {/* ✅ FIXED:Changed from resumeInfo.education to resumeInfo.educationDetail */}
       {(Array.isArray(resumeInfo?.educationDetail) ? resumeInfo.educationDetail : []).map((education, index) => (
         <div key={index} className='my-5'>
           <h2 className='text-lg font-bold' style={{ color: resumeInfo?.themeColor }}>
