@@ -75,6 +75,7 @@ Backend (Strapi): http://localhost:3000
 
 Gemini AI: Make sure your API key is active
 
+view service: https://ai-resume-builder-opal.vercel.app/
 ## 🚧 Project Status
 ✅ Core functionality: 90% complete
 
